@@ -8,20 +8,26 @@
 }
 
 @font-face {
-    font-family: "DanaMed";
-    src: url("/public/assets/fonts/fa/BYekan-webfont.ttf") format("truetype");
+  font-family: "DanaMed";
+  src: url("/public/assets/fonts/fa/BYekan-webfont.ttf") format("truetype");
 }
 
 * {
-    font-family:  'Segoe UI', Verdana, sans-serif;
-    /* font-weight: bold; */
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  /* font-weight: bold; */
 }
 
 .glass {
-  background: rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(6px) saturate(120%);
 }
 
 .dir_ltr {
   direction: ltr;
+}
+
+@layer components {
+  .user_panel_cards {
+    @apply flex justify-center items-center rounded-lg bg-[#ffffff60] border p-10
+  }
 }
