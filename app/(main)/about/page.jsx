@@ -17,7 +17,7 @@ const page = () => {
                 ماجرا زمانی پیچیده‌تر شد که کارت بازی ریکاردو آلوز از سوی سازمان لیگ برای تراکتور صادر شد؛ اقدامی که عملاً باعث شد این بازیکن امکان همراهی با سپاهان را نداشته باشد. همین مسئله پای فدراسیون فوتبال را به میان کشید تا نشستی با حضور نمایندگان دو باشگاه برای حل اختلاف برگزار شود. در این نشست، پیشنهاد شد سپاهان با پرداخت مبلغی به تراکتور، رضایت این باشگاه را جلب کند، اما توافقی میان طرفین شکل نگرفت و در نهایت کمیته انضباطی فدراسیون فوتبال نیز از صدور حکم خودداری کرد و پرونده را به فیفا فرستاد
             </p>
             <div>
-                <Link href={'about/honors'} className="px-7 py-2.5 mx-2 bg-amber-200 rounded-3xl hover:bg-amber-300 hover:shadow-xl transition-all">افتخارات</Link>
+                {/* <Link href={'about/honors'} className="px-7 py-2.5 mx-2 bg-amber-200 rounded-3xl hover:bg-amber-300 hover:shadow-xl transition-all">افتخارات</Link> */}
                 <CustomButton onClick={() => setShowModal(true)} className={'bg-cyan-200 hover:bg-cyan-50 my-10 px-7 cursor-pointer hover:shadow-xl'}>
                     ثبت نظر
                 </CustomButton>
